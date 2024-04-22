@@ -16,6 +16,11 @@
         right: 10px;
     }
 
+    #menu-cabecario > ul {
+        gap: 10px;
+        user-select: none;
+    }
+
     #menu-cabecario > ul > li > a, #suporte {
         padding: 7px 10px;
         border-radius: 15px;
@@ -78,7 +83,7 @@
     }
 
     #eu{
-        width: 450px;
+        width: 400px;
     }
 
     #container-img-sobre-mim {
@@ -91,11 +96,11 @@
     }
 
     #content-sobre-min-2 {
-        width: 400px;
+        width: 350px;
     }
 
     #content-sobre-min-2 > h2 {
-        font-size: 45px;
+        font-size: 50px;
         margin-bottom: 10px;
     }
 
@@ -105,7 +110,7 @@
     }
 
     #habilidades > h2, #extras > h2 {
-        font-size: 30px;
+        font-size: 40px;
         width: auto;
     }
 
@@ -123,12 +128,12 @@
     }
 
     .cards {
-        width: 250px;
+        width: 280px;
     }
 
     .card {
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         background-color: var(--color-theme);
         font-size: 35px;
         color: var(--background-color2);
@@ -146,7 +151,7 @@
     #cards-projetos {
         align-items: center;
         justify-content: center;
-        width: 480px;
+        width: auto;
         padding: 0px;
         margin: 0px;
     }
@@ -162,5 +167,7 @@
     #botao-subir {
         right: 15px;
     }
+
+    
 
 }

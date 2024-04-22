@@ -486,6 +486,7 @@ body::-webkit-scrollbar-thumb {
 #contato-links > ul {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 #contato-links > ul > li {
@@ -550,7 +551,7 @@ footer {
 
 footer > p {
     color: var(--text-color);
-    font-size: 17px;
+    font-size: 15px;
 }
 
 #botao-subir {
