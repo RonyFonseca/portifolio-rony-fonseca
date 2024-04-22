@@ -1,0 +1,1 @@
+let containerSuport = document.querySelector("#suport-container")
