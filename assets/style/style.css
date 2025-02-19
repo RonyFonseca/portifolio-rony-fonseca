@@ -578,3 +578,9 @@ footer > p {
 .png-icon-habilidades{
     width:90px;
 }
+
+#info-projetos {
+    width: 980px;
+    text-indent: 20px;
+    text-align: justify;
+}
