@@ -355,7 +355,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 #cards-projetos {
-    margin: 20px;
+    margin-top: 50px;
     width: 980px;
     display: flex;
     flex-wrap: wrap;
@@ -366,7 +366,6 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     width: 300px;
-    margin-top: 100px;
 }
 
 .img-card {
