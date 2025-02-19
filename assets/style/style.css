@@ -571,3 +571,11 @@ footer > p {
     right: 40px;
     color: black;
 }
+
+.icon-png > img{
+    width:32px;
+}
+
+.png-icon-habilidades{
+    width:90px;
+}
