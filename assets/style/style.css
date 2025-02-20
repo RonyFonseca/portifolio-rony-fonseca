@@ -580,7 +580,8 @@ footer > p {
 }
 
 #info-projetos {
-    width: 980px;
+    max-width: 980px;
     text-indent: 20px;
     text-align: justify;
+    padding: 15px;
 }
