@@ -435,7 +435,6 @@ body::-webkit-scrollbar-thumb {
     padding-top: 100px;
     padding-bottom: 220px;
     display: flex;
-    justify-content: space-around;
     padding: 50px;
 }
 
