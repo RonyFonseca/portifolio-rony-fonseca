@@ -377,7 +377,7 @@ button{font:inherit;color:inherit}
 }
 .timeline-meta span:first-child{color:#aaa}
 .timeline-content h3{font:600 25px var(--heading);margin:9px 0 8px}
-.timeline-content p{width:400px;color:var(--muted);font-size:14px}
+.timeline-content p{width:300px;color:var(--muted);font-size:14px}
 .tags,.project-stack{display:flex;gap:7px;flex-wrap:wrap;margin-top:17px}
 .tags span,.project-stack span{
   padding:5px 8px;
