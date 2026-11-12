@@ -595,8 +595,46 @@ button{font:inherit;color:inherit}
 @keyframes blink{50%{opacity:0}}
 
 @media(max-width:900px){
-  .nav{display:none}
-  .menu-button{display:block}
+  .nav{
+    display:none;
+  }
+
+  .nav.open{
+    display:flex;
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    flex-direction:column;
+    gap:0;
+    padding:14px;
+    background:rgba(5,5,5,.97);
+    border:1px solid var(--line);
+    border-top:0;
+    border-radius:0 0 14px 14px;
+    backdrop-filter:blur(20px);
+    box-shadow:0 20px 50px rgba(0,0,0,.5);
+    z-index:50;
+  }
+
+  .nav.open a{
+    padding:14px 12px;
+    border-bottom:1px solid var(--line);
+    color:#aaa;
+  }
+
+  .nav.open a:last-child{
+    border-bottom:0;
+  }
+
+  .nav.open a:hover{
+    color:#fff;
+  }
+
+  .menu-button{
+    display:grid;
+    place-items:center;
+  }
   .hero-grid,.intro-grid,.stack-grid{grid-template-columns:1fr}
   .hero-grid{padding-top:55px}
   .hero{min-height:auto}
